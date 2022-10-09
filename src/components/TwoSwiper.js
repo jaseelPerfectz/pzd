@@ -13,7 +13,7 @@ const TwoSwiper = ({ data }) => {
               infiniteLoop={true}
               showThumbs={false}
               showStatus={false}
-              showIndicators={false}
+              // showIndicators={false}
             >
               {data?.map((item, index) => (
                 <div className="row" key={`slider-${index}`}>
@@ -24,8 +24,8 @@ const TwoSwiper = ({ data }) => {
                         <div
                           className="image-1"
                           style={{
-                            backgroundPosition: " 50%",
-                            height: " 500px",
+                            backgroundPosition: "50%",
+                            height: "500px",
                             width: "100%",
                             boxSizing: "border-box",
                             backgroundImage: `url(
@@ -64,8 +64,8 @@ const TwoSwiper = ({ data }) => {
                       className="image-1"
                       style={{
                         backgroundPosition: " 50%",
-                        height: " 500px",
-                        width: "100%",
+                        height: "500px",
+                        width: "90%",
                         boxSizing: "border-box",
                         backgroundImage: `url(
                             ${window.location.origin}/assets/images/${item.image}.png

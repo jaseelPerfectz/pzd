@@ -7,7 +7,10 @@ import HeaderMenuSection from "./HeaderMenuSection";
 
 const HeaderSection = (props) => {
   return (
-    <div className="row align-items-center justify-content-between">
+    <div
+      className="row align-items-center justify-content-between"
+      style={{ paddingTop: 10, paddingLeft: 15 }}
+    >
       <HeaderLogoSection
         logoUrl={props.logoUrl}
         logoImage={props.logoImage}
