@@ -642,8 +642,8 @@
 
 .section-8 .client {
   width: 100%;
-  padding: 3rem 0;
-  background: #25283a;
+  /* padding: 0 0; */
+  /* background: #25283a; */
 }
 
 .section-8 .client img {

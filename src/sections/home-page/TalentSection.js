@@ -10,7 +10,17 @@ const TalentSection = (props) => {
       <div className={width > 768 ? "container" : "container px-5"}>
         <div className="row">
           <div className="col col-12 col-sm-6">
-            <div className="text-1">{data.desc}</div>
+            <div className="text-1">{data.title}</div>
+            <div
+              style={{
+                fontWeight: 500,
+                fontSize: 28,
+                color: "#F5F5F5",
+                paddingBottom: 120,
+              }}
+            >
+              {data.desc}
+            </div>
             <div className="action">
               <a href={data.url} className="btn">
                 <span>{data.buttonTitle}</span>

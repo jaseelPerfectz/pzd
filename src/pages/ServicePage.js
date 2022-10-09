@@ -36,10 +36,10 @@ const ServicePage = () => {
                         <div className="text-3">{content?.subTitle}</div>
                         <div className="text-1 text-1-1">
                           <motion.div
-                            whileHover={{
-                              scale: [1, 1.5, 1.5, 1, 1],
-                              transition: { duration: 1 },
-                            }}
+                            // whileHover={{
+                            //   scale: [1, 1.5, 1.5, 1, 1],
+                            //   transition: { duration: 1 },
+                            // }}
                           >
                             {content?.title.split(" ").map((service, index) =>
                               index === 0 ? (

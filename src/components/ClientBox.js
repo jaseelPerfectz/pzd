@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const ClientBox = (props) => {
   const { url, image } = props;
   return (
-    <div className="col col-6 col-sm-3">
+    <div className="col col-6 col-sm-3" style={{ width: "20%" }}>
       <a href={url}>
         <div className="client">
           <img

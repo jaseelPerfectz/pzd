@@ -12,9 +12,9 @@ const LatestTechnologySection = (props) => {
       <div className={width > 768 ? "container" : "container px-5"}>
         <div className="row">
           <div className="col col-12 col-sm-6">
-            {chunks.length > 0 && (
-              <div className="text-1">
-                {chunks.map((chunk, index) =>
+            {/* {chunks.length > 0 && ( */}
+            <div className="text-1">
+              {/* {chunks.map((chunk, index) =>
                   index === 0 ? (
                     <span key={`success-lg-${index}`}>
                       <span>{chunk}</span>
@@ -23,17 +23,26 @@ const LatestTechnologySection = (props) => {
                   ) : (
                     <span key={`success-lg-${index}`}>{chunk}</span>
                   )
-                )}
-              </div>
-            )}
+                )} */}
+              {data.title}
+            </div>
+            {/* )} */}
             <div className="techs-image d-block d-sm-none">
               <img
                 src={`${window.location.origin}/assets/images/latest-technology.png`}
               />
             </div>
             <div className="text-2">{data.desc}</div>
-            <div className="text-3">
-              <label>{data.boxTitle}</label>
+            <div
+              style={{
+                fontWeight: 400,
+                fontSize: 22,
+                color: "black",
+                paddingBottom: 10,
+               }}
+            >
+              {/* <label>{data.boxTitle}</label> */}
+              {data.boxTitle}
             </div>
             <div className="techs">
               {data.stacks.map((stack, index) => (

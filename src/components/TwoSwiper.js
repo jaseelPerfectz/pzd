@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 const TwoSwiper = ({ data }) => {
   return (
-    <div className="slider" >
+    <div className="slider">
       <div className="slider-content">
         <div className="slider-slide">
           <div className="slider-slide-content">
@@ -36,9 +36,18 @@ const TwoSwiper = ({ data }) => {
                           }}
                         ></div>
                       </div>
-                      <div className="text-2">
-                        We create value for our clients by creating value for
-                        their customers.
+                      <div className="text-2">{item.description}</div>
+                      <div
+                        className="text-2"
+                        style={{
+                          textAlign: "left",
+                          fontStyle: "italic",
+                          fontWeight: 500,
+                          paddingBottom: 29,
+                          color: "white",
+                        }}
+                      >
+                        {item.title1}
                       </div>
                       <div className="action">
                         <a href={`${item.url}`} className="btn btn-primary">

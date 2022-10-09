@@ -32,6 +32,10 @@ const HomePage = (props) => {
       </div>
       <SuccessSection data={data.homepage.successSection} />
       <ServiceSection data={_.chunk(data.homepage.services, 7)[0]} />
+      <LatestTechnologySection data={data.homepage.latestTechnologies} />
+      <TechnologyStackSection data={data.homepage.technologiesStack} />
+      <TalentSection data={data.homepage.talentSection} />
+      <BrandingSection data={data.homepage.brandingSection} />
       <HelloSection
         title={data.homepage.helloSection.title}
         description={data.homepage.helloSection.subtitle}
@@ -40,10 +44,6 @@ const HomePage = (props) => {
         actionButtonText={data.homepage.helloSection.buttonTitle}
         actionButtonUrl={data.homepage.helloSection.url}
       />
-      <LatestTechnologySection data={data.homepage.latestTechnologies} />
-      <TechnologyStackSection data={data.homepage.technologiesStack} />
-      <TalentSection data={data.homepage.talentSection} />
-      <BrandingSection data={data.homepage.brandingSection} />
       <ClientSection
         clients={data.homepage.client.clients}
         desc={data.homepage.client.description}

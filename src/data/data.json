@@ -2,22 +2,25 @@
   "homepage": {
     "slider": [
       {
-        "title": "DESIGN AND BUILD YOUR TECH TEAM",
-        "description": "We create value for our clients by creating value for their customers.",
+        "title": "Design and Build Your Tech-Team",
+        "description": "You’ve come to the right place for fast-track services! Build your team of highly trained professionals seamlessly.",
+        "title1": "Design and build your dream team with us!",
         "buttonTitle": "OUR SERVICES",
         "url": "/contact",
         "image": "hero-object"
       },
       {
-        "title": "WE HELP TRANSFORM",
-        "description": "Technology stack transformation",
+        "title": "On-Demand IT Services",
+        "description": "Our available IT talents are committed and diligent individuals who face problems with you, head on. We’ve got your backs, whether it’s training or design.        ",
+        "title1": "No nonsense, no delays, no barriers!",
         "buttonTitle": "OUR SERVICES",
         "url": "/contact",
         "image": "hero-object2"
       },
       {
-        "title": "IT TALENTS ON-DEMAND",
-        "description": " We know that you can't build a company with innovation alone, you also need IT talent to deliver products.",
+        "title": "We Help Transform",
+        "description": "Our clients are inspiring pioneers. We provide cutting-edge services that transform your dreams into reality.",
+        "title1": "Tech done the way you want, done right!",
         "buttonTitle": "OUR SERVICES",
         "url": "/contact",
         "image": "hero-object3"
@@ -25,7 +28,7 @@
     ],
     "successSection": {
       "title": "COMPLETE CLIENT SUCCESS",
-      "description": "Count on PERFECTZ DIGITAL to deliver essential solutions and measurable results again and again",
+      "description": "We're the free-flowing gateway between you and your milestone of success!",
       "buttonTitle": "KNOW MORE ABOUT US",
       "url": "/contact"
     },
@@ -80,9 +83,9 @@
       "url": "/contact"
     },
     "latestTechnologies": {
-      "title": "Latest Technologies",
+      "title": "LATEST TECHNOLOGY TRAINING PROGRAM",
       "desc": "Join our fast growing global team to unleash your full potential.",
-      "boxTitle": "Technologies",
+      "boxTitle": "Technology Stack and Tools",
       "buttonTitle": "VIEW ALL COURSES",
       "url": "/contact",
       "stacks": [
@@ -94,14 +97,17 @@
           "url": "/contact"
         },
         { "image": "xcode", "title": "xcode", "url": "/contact" },
-        { "image": "react", "title": "react", "url": "/contact" },
-        { "image": "angular", "title": "angular", "url": "/contact" },
-        { "image": "golang", "title": "golang", "url": "/contact" }
+        { "image": "github", "title": "github", "url": "/contact" },
+        { "image": "figma", "title": "figma", "url": "/contact" },
+        { "image": "jira", "title": "jira", "url": "/contact" },
+        { "image": "confluence", "title": "confluence", "url": "/contact" },
+        { "image": "react", "title": "react", "url": "/contact" }
       ]
     },
     "technologiesStack": {
-      "title": "Technology Stack",
-      "desc": "All our engineers are expertise in latest Mobile, Web and Backend technology stack",
+      "title": "Advanced and Updated Technology",
+      "desc": "Through this, your product will become a dominating candidate in the industry. Utilizing cloud technology and extreme programming, it will be a strong competitor. Not to mention highly sought after, as consumers love state-of-the-art technology, which you will have by the end of it.",
+      "desc1": "PerfectzDigital offers not just technical training but a lifestyle. Our service instills a fascination for technology and the perfect skill set alongside it. Your workplace culture will include tech-savviness, which attracts all sorts of investors.",
       "stacks": [
         { "image": "android", "title": "android", "url": "/contact" },
         { "image": "ios", "title": "ios", "url": "/contact" },
@@ -112,11 +118,13 @@
         },
         { "image": "gworkspace", "title": "gworkspace", "url": "/contact" },
         { "image": "react", "title": "react", "url": "/contact" },
-        { "image": "figma", "title": "figma", "url": "/contact" }
+        { "image": "figma", "title": "figma", "url": "/contact" },
+        { "image": "angular", "title": "angular", "url": "/contact" }
       ]
     },
     "talentSection": {
-      "desc": "We are here to provide Talents-on-Demand to create High Performance Teams (HPTs)",
+      "title": "Help us help you! ",
+      "desc": "All you need to do is contact us. Let's walk the path of technological development together to come out as an industry giant.",
       "buttonTitle": "CONTACT US NOW",
       "url": "/contact"
     },
@@ -131,6 +139,8 @@
       "clients": [
         { "url": "", "image": "cakap" },
         { "url": "", "image": "juneit" },
+        { "url": "", "image": "cleanline" },
+        { "url": "", "image": "bolder" },
         { "url": "", "image": "ailoitte" }
       ]
     }
@@ -155,19 +165,36 @@
     "services": [
       {
         "slug": "tech-transformation",
-        "title": "TECH TRANSFORMATION",
-        "subTitle": "We help companies for",
+        "title": "TECHNOLOGY TRANSFORMATION",
+        "subTitle": "",
         "highlights": [
-          "Quam scelerisque purus",
-          "Quam scelerisque purus",
-          "Quam scelerisque purus"
+          "First-hand practical training sessions ",
+          "Intensive run-through of the popular technological frameworks",
+          "Use of extreme programming and cloud softwares"
         ],
         "body": {
-          "title": "Lorem ipsum dolo rsit amet, consect etur adipiscing",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam scelerisque purus tincidunt lorem elementum. Aliquam magna egestas purus massa leo. Malesuada scelerisque phasellus eget viverra semper lacus. Venenatis massa mauris.",
+          "title": "Advanced and Updated Technology",
+          "subtitle": "",
           "paragraph": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam scelerisque purus tincidunt lorem elementum. Aliquam magna egestas purus massa leo. Malesuada scelerisque phasellus eget viverra semper lacus. Venenatis massa mauris sit augue magna ac, ut nisl consectetur.",
-            "Orci neque, egestas consectetur cras quis orci morbi. Euismod arcu convallis convallis sed orci venenatis pharetra facilisi netus. Nunc quisque a senectus lacus id. Ornare cras consectetur. pharetra facilisi netus."
+            "The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! "
+          ],
+          "url": "/contact"
+        }
+      },
+      {
+        "slug": "tech-transformation",
+        "title": "TECHNOLOGY TRANSFORMATION",
+        "subTitle": "",
+        "highlights": [
+          "First-hand practical training sessions ",
+          "Intensive run-through of the popular technological frameworks",
+          "Use of extreme programming and cloud softwares"
+        ],
+        "body": {
+          "title": "Advanced and Updated Technology",
+          "subtitle": "",
+          "paragraph": [
+            "The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! "
           ],
           "url": "/contact"
         }
