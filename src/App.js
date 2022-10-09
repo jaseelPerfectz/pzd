@@ -22,6 +22,7 @@ const App = () => {
           <Route path="/courses" element={<CoursesPage />} />
           <Route path="/services" element={<AllServicePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/test" element={"Halow world"} />
         </Routes>
       </div>
     </Router>
@@ -29,3 +30,8 @@ const App = () => {
 };
 
 export default App;
+
+
+// git add .
+// git commit -m "Reguler"
+// git push origin main
